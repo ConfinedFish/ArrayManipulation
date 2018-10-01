@@ -10,21 +10,59 @@
 *   in designing and debugging my program.                     
 */
 package arraymanipulation;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class ArrayManipulation {
     public static void main(String[] args) {
-        int length = 5;
-        double[] initvalues = new double[length];
-        for (int i = 0; i < length; i++){
-            initvalues[i] = i * i;
-        }
+        MyVector vector1 = printMessage(1);
+        MyVector vector2 = printMessage(2);
+        print("Vector 1: " + vector1.toString());
+        println("");
+        print("Vector 2: " + vector2.toString());
+        println("");
+        print("Addition: ");
+        println("");
+        print(vector1.plus(vector2));
         
-        MyVector vec = new MyVector(initvalues);
-        MyVector vecTwo = new MyVector(vec);
-        System.out.print(vec.toString());
-        System.out.println("");
-        System.out.print(vecTwo);
-        System.out.println("");
-        System.out.print(vec.plus(vecTwo).toString());
     }
-    
+    private static MyVector printMessage(int numArray){
+        print("Please enter a length of an Array (" + numArray + "/2): ");
+        Scanner scan = new Scanner(System.in);
+        boolean valid = false;
+        int length = 0, count, input = 0;
+        while (!valid){
+            try{length = scan.nextInt(); valid = true;}
+            catch(InputMismatchException e){
+                print("Invalid Input.");
+                scan.next();
+                valid = false;
+            }
+        }
+        double[] initvalues2 = new double[length];
+        count = 0;
+        valid = false;
+        while (count < length){
+            print("Enter a value (" + (count + 1) + "/" + length + "): ");
+            while (!valid){
+                try{input = scan.nextInt(); valid = true;}
+                catch(InputMismatchException e){
+                    print("Invalid Input.");
+                    scan.next();
+                    valid = false;
+                }
+            }
+            valid = false;
+            initvalues2[count] = input;
+            count++;
+        }
+        return new MyVector(initvalues2);
+    }
+    private static void print(Object obj){
+        System.out.print(obj);
+    }
+    private static void println(Object obj){
+        System.out.println(obj);
+    }
 }

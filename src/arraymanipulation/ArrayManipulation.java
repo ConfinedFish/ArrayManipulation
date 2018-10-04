@@ -24,7 +24,9 @@ public class ArrayManipulation {
         println("");
         print("Addition: ");
         println("");
-        print(vector1.plus(vector2));
+        if(vector1.plus(vector2).equals(vector2)){
+            print("Array Equal");
+        }
         
     }
     private static MyVector printMessage(int numArray){

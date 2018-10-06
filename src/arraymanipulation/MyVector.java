@@ -31,40 +31,6 @@ public class MyVector {
     public void add(double value){
         myVector.add(value);
     }
-    
-    public MyVector plus(MyVector source){
-        
-        MyVector localVector = new MyVector();
-        if(source.getLength() != this.getLength()){
-            return source;
-        }
-        for (int i = 0; i < source.getLength(); i++){
-            double value = myVector.get(i) + source.getValueAt(i);
-            localVector.add(value);
-        }
-        return localVector;
-    }
-    public MyVector minus(MyVector source){
-        int size;
-        MyVector localVector = new MyVector();
-        if (source.getLength() > myVector.size()){
-            size = source.getLength();
-        }else{
-            size = myVector.size();
-        }
-        for (int i = 0; i < size; i++){
-            double value = myVector.get(i) - source.getValueAt(i);
-            localVector.add(value);
-        }
-        return localVector;
-    }
-    public MyVector scaleBy(int scale){
-        MyVector localVector = new MyVector();
-        for (int i = 0; i < myVector.size(); i++){
-            localVector.add(myVector.get(i) * scale);
-        }
-        return localVector;
-    }
     @Override
     public boolean equals(Object source){
         if (!(source instanceof MyVector)){
@@ -79,6 +45,43 @@ public class MyVector {
         }
         return localbool;
     }
+    @Override
+    public String toString(){
+        String str = "";
+        for (int i = 0; i < myVector.size(); i++){
+            str += myVector.get(i).toString() + " ";
+        }
+        return str;
+    }
+    public MyVector plus(MyVector source) throws Exception{
+        if(source.getLength() != this.getLength()){
+            throw new Exception();
+        }
+        MyVector localVector = new MyVector();
+        for (int i = 0; i < source.getLength(); i++){
+            double value = myVector.get(i) + source.getValueAt(i);
+            localVector.add(value);
+        }
+        return localVector;
+    }
+    public MyVector minus(MyVector source) throws Exception{
+        if(source.getLength() != this.getLength()){
+            throw new Exception();
+        }
+        MyVector localVector = new MyVector();
+        for (int i = 0; i < source.getLength(); i++){
+            double value = myVector.get(i) - source.getValueAt(i);
+            localVector.add(value);
+        }
+        return localVector;
+    }
+    public MyVector scaleBy(int scale){
+        MyVector localVector = new MyVector();
+        for (int i = 0; i < myVector.size(); i++){
+            localVector.add(myVector.get(i) * scale);
+        }
+        return localVector;
+    }
     public MyVector abs(){
         MyVector localVector = new MyVector(this);
         for (int i = 0; i < localVector.getLength(); i++){
@@ -86,19 +89,11 @@ public class MyVector {
         }
         return localVector;
     }
-    public MyVector dotProduct(MyVector source){
-        MyVector localVector = new MyVector();
+    public double dotProduct(MyVector source){
+        double collect = 0.0;
         for (int i = 0; i < source.getLength(); i++){
-            localVector.add(myVector.get(i) * source.getValueAt(i));
+            collect += (myVector.get(i) * source.getValueAt(i));
         }
-        return localVector;
-    }
-    @Override
-    public String toString(){
-        String str = "Values of Array: ";
-        for (int i = 0; i < myVector.size(); i++){
-            str += myVector.get(i).toString() + " ";
-        }
-        return str;
+        return collect;
     }
 }

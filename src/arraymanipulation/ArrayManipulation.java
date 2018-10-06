@@ -20,20 +20,46 @@ public class ArrayManipulation {
         MyVector vector2 = printMessage(2);
         print("Vector 1: " + vector1.toString());
         println("");
+        print("Absolute Value: ");
+        print(vector1.abs());
+        println("");
+        print("Scaled By 4: ");
+        print(vector1.scaleBy(4));
+        println("");
+        println("------------");
+        println("");
         print("Vector 2: " + vector2.toString());
         println("");
-        print("Addition: ");
+        print("Absolute Value: ");
+        print(vector2.abs());
         println("");
-        if(vector1.plus(vector2).equals(vector2)){
-            print("Array Equal");
+        print("Scaled By 4: ");
+        print(vector2.scaleBy(4));
+        println("");
+        println("------------");
+        println("");
+        print("Addition: ");
+        try{print(vector1.plus(vector2).toString());}
+        catch(Exception e){
+            print("Array Lengths Unequal");
         }
-        
+        println("");
+        print("Subtraction: ");
+        try{print(vector1.minus(vector2).toString());}
+        catch(Exception e){
+            print("Array Lengths Unequal");
+        }
+        println("");
+        print("Dot Product: ");
+        print(vector1.dotProduct(vector2));
+
     }
     private static MyVector printMessage(int numArray){
         print("Please enter a length of an Array (" + numArray + "/2): ");
         Scanner scan = new Scanner(System.in);
         boolean valid = false;
-        int length = 0, count, input = 0;
+        int length = 0;
+        double count, input = 0;
         while (!valid){
             try{length = scan.nextInt(); valid = true;}
             catch(InputMismatchException e){
@@ -48,7 +74,7 @@ public class ArrayManipulation {
         while (count < length){
             print("Enter a value (" + (count + 1) + "/" + length + "): ");
             while (!valid){
-                try{input = scan.nextInt(); valid = true;}
+                try{input = scan.nextDouble(); valid = true;}
                 catch(InputMismatchException e){
                     print("Invalid Input.");
                     scan.next();

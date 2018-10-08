@@ -59,7 +59,6 @@ public class ArrayManipulation {
         Scanner scan = new Scanner(System.in);
         boolean valid = false;
         int length = 0;
-        double count, input = 0;
         while (!valid){
             try{length = scan.nextInt(); valid = true;}
             catch(InputMismatchException e){
@@ -68,8 +67,9 @@ public class ArrayManipulation {
                 valid = false;
             }
         }
-        double[] initvalues2 = new double[length];
-        count = 0;
+        double[] initvalues = new double[length];
+        int count =0;
+        double input = 0;
         valid = false;
         while (count < length){
             print("Enter a value (" + (count + 1) + "/" + length + "): ");
@@ -82,10 +82,10 @@ public class ArrayManipulation {
                 }
             }
             valid = false;
-            initvalues2[count] = input;
+            initvalues[count] = input;
             count++;
         }
-        return new MyVector(initvalues2);
+        return new MyVector(initvalues);
     }
     private static void print(Object obj){
         System.out.print(obj);

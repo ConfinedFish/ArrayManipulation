@@ -1,20 +1,22 @@
-/**
+/*
 * Project: Project1                                                     
-* Author: ? (fill in your account name)                        
-* Creation date: mm/dd/yyyy                                    
-* Completion time: ? hours (fill in the time it took you       
-* to write the program)                                        
+* Author: Alex Zeigler
+* Creation date: 09/27/18
+* Completion time: 3 hours
 *                                                              
 * Honor Code: I pledge that this program represents my         
-*   own program code. I received help from (fill in the name)  
-*   in designing and debugging my program.                     
+*   own program code.
 */
-package arraymanipulation;
+package project1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ArrayManipulation {
+    /**
+     * Main method.
+     * @param args args
+     */
     public static void main(String[] args) {
         MyVector vector1 = printMessage(1);
         MyVector vector2 = printMessage(2);
@@ -54,6 +56,13 @@ public class ArrayManipulation {
         print(vector1.dotProduct(vector2));
 
     }
+
+    /**
+     * Asks the user for input of the length of the array and asks for the values of the array.
+     * Checks if the value is a double, and will continue to ask until a double is received.
+     * @param numArray - value to keep track of how many values have been made.
+     * @return a complete MyVector object.
+     */
     private static MyVector printMessage(int numArray){
         print("Please enter a length of an Array (" + numArray + "/2): ");
         Scanner scan = new Scanner(System.in);
@@ -87,9 +96,18 @@ public class ArrayManipulation {
         }
         return new MyVector(initvalues);
     }
+
+    /**
+     * Shortcut to the print method.
+     * @param obj - object to print
+     */
     private static void print(Object obj){
         System.out.print(obj);
     }
+    /**
+     * Shortcut to the println method.
+     * @param obj - object to print
+     */
     private static void println(Object obj){
         System.out.println(obj);
     }

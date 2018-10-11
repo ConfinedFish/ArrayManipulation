@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d653ea0-2de0-4696-8fcb-665c859fa156" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/project1/MyVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arraymanipulation/ArrayManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project1/ArrayManipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arraymanipulation/MyVector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project1/MyVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project1/MyVector.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,22 +17,23 @@
     <session id="-178884187">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -54,28 +53,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project1/MyVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3009">
-              <caret line="177" column="66" selection-start-line="177" selection-start-column="66" selection-end-line="177" selection-end-column="66" />
-              <folding>
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
-                <element signature="e#1982#1983#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-371">
+              <caret line="134" column="82" lean-forward="true" selection-start-line="134" selection-start-column="82" selection-end-line="134" selection-end-column="82" />
+              <folding>
+                <element signature="e#0#54492#0" expanded="true" />
+                <element signature="docComment;class#ArrayList#0" />
+                <element signature="e#4467#4511#0" />
+                <element signature="e#4569#4641#0" />
+                <element signature="e#4705#4905#0" />
+                <element signature="e#4985#5304#0" />
+                <element signature="e#5393#5497#0" />
+                <element signature="e#5525#5778#0" />
+                <element signature="e#6183#6259#0" />
+                <element signature="e#6283#6284#0" expanded="true" />
+                <element signature="e#6351#6352#0" expanded="true" />
+                <element signature="e#6358#6679#0" />
+                <element signature="e#7159#7375#0" />
+                <element signature="e#7611#7886#0" />
+                <element signature="e#8940#9171#0" />
+                <element signature="e#9246#9459#0" />
+                <element signature="e#10217#10338#0" />
+                <element signature="e#10395#10540#0" />
+                <element signature="e#10609#11040#0" />
+                <element signature="e#11124#11468#0" />
+                <element signature="e#11820#12164#0" />
+                <element signature="e#12526#12720#0" />
+                <element signature="e#13105#13682#0" />
+                <element signature="e#13775#15105#0" />
+                <element signature="e#15638#15896#0" />
+                <element signature="e#16001#16361#0" />
+                <element signature="e#16546#16748#0" />
+                <element signature="e#16912#17321#0" />
+                <element signature="e#17642#17992#0" />
+                <element signature="e#18398#19073#0" />
+                <element signature="e#20019#20137#0" />
+                <element signature="e#20328#21020#0" />
+                <element signature="e#21334#22130#0" />
+                <element signature="e#22673#23319#0" />
+                <element signature="e#23764#24073#0" />
+                <element signature="e#24225#24291#0" />
+                <element signature="e#24461#24675#0" />
+                <element signature="e#24782#25571#0" />
+                <element signature="e#25704#26607#0" />
+                <element signature="e#27763#28100#0" />
+                <element signature="e#28703#28814#0" />
+                <element signature="e#29618#30192#0" />
+                <element signature="e#30397#30627#0" />
+                <element signature="e#30714#30972#0" />
+                <element signature="e#31046#31105#0" />
+                <element signature="e#33346#33409#0" />
+                <element signature="e#35034#36634#0" />
+                <element signature="e#46151#46676#0" />
+                <element signature="e#46803#46866#0" />
+                <element signature="e#49111#49166#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project1/ArrayManipulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="-493">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
-                <element signature="e#3134#3135#0" expanded="true" />
-                <element signature="e#3171#3172#0" expanded="true" />
-                <element signature="e#3216#3217#0" expanded="true" />
-                <element signature="e#3255#3256#0" expanded="true" />
+                <element signature="e#0#3490#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,14 +186,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539229989556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539285215456" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -157,55 +208,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Project1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Project1" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -217,17 +219,19 @@
       <option name="presentableId" value="Default" />
       <updated>1539227515823</updated>
       <workItem from="1539227517437" duration="97000" />
-      <workItem from="1539227705975" duration="2280000" />
+      <workItem from="1539227705975" duration="2479000" />
+      <workItem from="1539233638031" duration="1169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2377000" />
+    <option name="totallyTimeSpent" value="3745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122666664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123733334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -266,28 +270,83 @@
     <entry file="file://$PROJECT_DIR$/Project1.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project1/MyVector.java">
+    <entry file="file://$USER_HOME$/Downloads/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3009">
-          <caret line="177" column="66" selection-start-line="177" selection-start-column="66" selection-end-line="177" selection-end-column="66" />
-          <folding>
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-18411" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project1/ArrayManipulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="-493">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#3171#3172#0" expanded="true" />
-            <element signature="e#3216#3217#0" expanded="true" />
-            <element signature="e#3255#3256#0" expanded="true" />
+            <element signature="e#0#3490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project1/MyVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="134" column="82" lean-forward="true" selection-start-line="134" selection-start-column="82" selection-end-line="134" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#54492#0" expanded="true" />
+            <element signature="docComment;class#ArrayList#0" />
+            <element signature="e#4467#4511#0" />
+            <element signature="e#4569#4641#0" />
+            <element signature="e#4705#4905#0" />
+            <element signature="e#4985#5304#0" />
+            <element signature="e#5393#5497#0" />
+            <element signature="e#5525#5778#0" />
+            <element signature="e#6183#6259#0" />
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+            <element signature="e#6358#6679#0" />
+            <element signature="e#7159#7375#0" />
+            <element signature="e#7611#7886#0" />
+            <element signature="e#8940#9171#0" />
+            <element signature="e#9246#9459#0" />
+            <element signature="e#10217#10338#0" />
+            <element signature="e#10395#10540#0" />
+            <element signature="e#10609#11040#0" />
+            <element signature="e#11124#11468#0" />
+            <element signature="e#11820#12164#0" />
+            <element signature="e#12526#12720#0" />
+            <element signature="e#13105#13682#0" />
+            <element signature="e#13775#15105#0" />
+            <element signature="e#15638#15896#0" />
+            <element signature="e#16001#16361#0" />
+            <element signature="e#16546#16748#0" />
+            <element signature="e#16912#17321#0" />
+            <element signature="e#17642#17992#0" />
+            <element signature="e#18398#19073#0" />
+            <element signature="e#20019#20137#0" />
+            <element signature="e#20328#21020#0" />
+            <element signature="e#21334#22130#0" />
+            <element signature="e#22673#23319#0" />
+            <element signature="e#23764#24073#0" />
+            <element signature="e#24225#24291#0" />
+            <element signature="e#24461#24675#0" />
+            <element signature="e#24782#25571#0" />
+            <element signature="e#25704#26607#0" />
+            <element signature="e#27763#28100#0" />
+            <element signature="e#28703#28814#0" />
+            <element signature="e#29618#30192#0" />
+            <element signature="e#30397#30627#0" />
+            <element signature="e#30714#30972#0" />
+            <element signature="e#31046#31105#0" />
+            <element signature="e#33346#33409#0" />
+            <element signature="e#35034#36634#0" />
+            <element signature="e#46151#46676#0" />
+            <element signature="e#46803#46866#0" />
+            <element signature="e#49111#49166#0" />
           </folding>
         </state>
       </provider>

@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 public class MyVector {
     private final ArrayList<Double> myVector;
-
+    
     /**
      * Constructor for a MyVector object.
      * @param initvalues - initial values for the array
